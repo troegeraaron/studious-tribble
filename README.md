@@ -6,7 +6,7 @@ I created this repository as a way to teach myself and hopefully inspire others 
 ### Why?
 
 I've wanted to colaborate on software before, but where do you start? How do you reach people? Are people scary?
-If I don't the documentation does that make me a bad person? Can I contribute to something and have fun?
+If I don't read the documentation does that make me a bad person? Can I contribute to something and have fun?
 
 Yes.
 
