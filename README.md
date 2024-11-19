@@ -16,3 +16,7 @@ I want to use this repository to make mistakes, learn, and have fun doing that! 
 and find new ways of thinking.
 
 Enjoy!
+
+## People who committed
+
+Aaron Troeger
