@@ -3,16 +3,24 @@
 # unittest practice and fun python OOP!
 import unittest
 from calculations import Calculator
+from calculations.area import Area
 
-calc = Calculator()
+calc = Calculator(2, 8)
 
 class TestCalcs(unittest.TestCase):
-    def test_sum(self):
-        calculation = Calculator()
-        self.assertEqual(calculation.add(8, 2), 10, 'The sum is wrong')
-    def test_dived(self):
-        divide = Calculator()
-        self.assertEqual(divide.divide(1, 2), 1, 'Bad division')
+    def test_calc(self):
+        calculation = Calculator(2, 1)
+        self.assertEqual(calculation.divide(), 2, 'Calculation is wrong')
+
+class TestArea(unittest.TestCase):
+    def test_area(self):
+        # Test passes
+        triangle_area = Area(10, 2)
+        self.assertEqual(triangle_area.triangle(), 10, 'Wrong calc')
+        
+        # TODO - how to loop tests.
+            
+
 
 if __name__ == '__main__':
     unittest.main()
